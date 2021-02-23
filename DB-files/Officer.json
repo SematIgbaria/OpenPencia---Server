@@ -1,0 +1,38 @@
+{
+    "1": {
+      "officerId":"String" ,
+      "officerName":"String" ,
+      "officerSecurity_IDs":[{"Security_ID":"7777777"}],
+      "officerArticles":[
+          {"articleId":"Number","articleTitle":"String","articleText":"String","articleURL":"String"}
+          ,{}],
+      "votes":[{
+        "Proxy_Code":"String",
+       "allVotes": [{"Proxy_Code":"String","Security_ID":"7777777","userId":"String","voted":"{-1/0/1}"},{}],
+        "likesCounter":"Number",
+        "disLikesCounter":"Number"
+      }  
+       ]
+
+     
+    },
+
+    "officerId": {
+      "officerId":"987654321" ,
+      "officerName":"Sami Ahmed",
+      "officerSecurity_IDs":["7777777","...."],
+      "officerArticles":[
+        {"articleId":"55555","articleTitle":"An article in Ynet","articleText":"This is the article text","articleURL":"String"}
+        ,{}]
+      },
+      "votes":[{
+        "Proxy_Code":"520040700/1",
+        "allVotes": [{"Proxy_Code":"520040700/1","Security_ID":"7777777","userId":"123456789","voted":"1"},{}],
+        "likesCounter":"8",
+        "disLikesCounter":"2"
+      }
+      
+        ]
+
+
+  }
