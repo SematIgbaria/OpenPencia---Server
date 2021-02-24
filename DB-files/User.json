@@ -1,19 +1,20 @@
 {
-    "1": {
+    "userSchema": {
       "_id":"String" ,
       "firstName":"String" ,
       "lastName": "String",
-      "email": "email",
+      "email": "String",
       "phone": "String",
       "password": "String",
       "status": "{Waiting/Approved}",
       "fundName":"String",
       "chanel":"String",
-      "votes":[{"Proxy_Code":"String","officerId":"String","voted":"{-1/0/1}"}]
+      "registerDate":"Date",
+      "votes":[{"Proxy_Code":"String","officerId":"String","voted":"{-1/0/1}","voteDate":"Date"}]
 
     },
 
-    "userId": {
+    "MockData of User": {
         "userId":"123456789" ,
         "firstName": "Josef",
         "lastName": "Smith",
@@ -23,7 +24,7 @@
         "status": "Waiting",
         "fundName":"הראל",
         "chanel":"גמל/פנסיה",
-        "votes":[{"Proxy_Code":"520040700/1","officerId":"987654321","voted":"1"}]
+        "votes":[{"Proxy_Code":"520040700/1","officerId":"987654321","voted":1}]
 
       }
 

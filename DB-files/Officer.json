@@ -1,15 +1,16 @@
 {
-    "1": {
+    "OfficerSchema": {
       "officerId":"String" ,
       "officerName":"String" ,
-      "officerSecurity_IDs":[{"Security_ID":"7777777"}],
+      "officerImg":"URL",
       "officerArticles":[
           {"articleId":"Number","articleTitle":"String","articleText":"String","articleURL":"String"}
           ,{}],
       "votes":[{
         "Proxy_Code":"String",
-       "allVotes": [{"Proxy_Code":"String","Security_ID":"7777777","userId":"String","voted":"{-1/0/1}"},{}],
+       "allVotes": [{"Proxy_Code":"String","Security_ID":"String","userId":"String","voted":"{-1/0/1}"},{}],
         "likesCounter":"Number",
+        "absentCounter":"",
         "disLikesCounter":"Number"
       }  
        ]
@@ -17,7 +18,7 @@
      
     },
 
-    "officerId": {
+    "MockData of Officer": {
       "officerId":"987654321" ,
       "officerName":"Sami Ahmed",
       "officerSecurity_IDs":["7777777","...."],

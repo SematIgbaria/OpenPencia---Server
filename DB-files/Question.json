@@ -1,18 +1,17 @@
 {
-    "1": {
+    "ProxySchema": {
       "Proxy_Code":"String" ,
       "Security_ID":"String" ,
       "Topic": "String",
-      "Date": "Date",
-      "source": "String",
-      "status": "{Important/Open/Results}",
+      "creationDate": "Date",
       "expiredDate":"Date",
-      "officers":[{"officerId":"String"}],
-      "votes":[{"userId":"String","officerId":"String","voted":"{-1/0/1}"}]
+      "officers":[{"officerId":"String","officerName":"String","officerImg":"String"}],
+      "votes":[{"userId":"String","officerId":"String","voted":"{-1/0/1}"}],
+      "status": "{Open/Pending/Results}"
 
     },
 
-    "userId": {
+    "Proxy MockData": {
      "Proxy_Code":"520040700/1" ,
       "Security_ID":"520040700" ,
       "Topic": "מינוי דירקטורים (שאינם דצ חים)",
